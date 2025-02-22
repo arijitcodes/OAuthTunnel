@@ -2,13 +2,57 @@
 
 OAuthTunnel is a lightweight proxy server for forwarding OAuth callbacks to your local backend during development.
 
+Author: [Arijit Banerjee](#author) <br/>
+License: [MIT](./LICENSE.md)
+
+<!-- shields.io Badges -->
+
+<!-- Websites / Links - Up / Down -->
+
+[![GitHub Repository Link](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Farijitcodes%2FOAuthTunnel&style=for-the-badge&logo=github&label=repository&labelColor=%23232323)](https://github.com/arijitcodes/OAuthTunnel) &nbsp;&nbsp;
+
+<!-- NPM Badges -->
+
+<!-- GitHub Badges -->
+
+[![GitHub License](https://img.shields.io/github/license/arijitcodes/OAuthTunnel?style=for-the-badge&logo=github&labelColor=232323&color=404040)](https://github.com/arijitcodes/OAuthTunnel/blob/main/LICENSE) &nbsp;
+[![GitHub language count](https://img.shields.io/github/languages/count/arijitcodes/OAuthTunnel?style=for-the-badge&logo=github&labelColor=%23232323&color=%23404040)](https://github.com/arijitcodes/OAuthTunnel) &nbsp;
+[![GitHub top language](https://img.shields.io/github/languages/top/arijitcodes/OAuthTunnel?style=for-the-badge&logo=github&labelColor=%23232323)](https://github.com/arijitcodes/OAuthTunnel) &nbsp;
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/arijitcodes/OAuthTunnel/main?style=for-the-badge&logo=github&labelColor=%23232323)](https://github.com/arijitcodes/OAuthTunnel/commits/main) &nbsp;
+
+[![GitHub contributors](https://img.shields.io/github/contributors/arijitcodes/OAuthTunnel?style=for-the-badge&logo=github&labelColor=232323&color=404040)](https://github.com/arijitcodes/OAuthTunnel/graphs/contributors) &nbsp;
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/arijitcodes/OAuthTunnel?style=for-the-badge&logo=github&labelColor=232323&color=404040)](https://github.com/arijitcodes/OAuthTunnel/pulls) &nbsp;
+[![GitHub issues](https://img.shields.io/github/issues/arijitcodes/OAuthTunnel?style=for-the-badge&logo=github&labelColor=232323&color=404040)](https://github.com/arijitcodes/OAuthTunnel/issues) &nbsp;
+[![GitHub repo size](https://img.shields.io/github/repo-size/arijitcodes/OAuthTunnel?style=for-the-badge&logo=github&labelColor=232323&color=404040)](https://github.com/arijitcodes/OAuthTunnel) &nbsp;
+[![GitHub code size](https://img.shields.io/github/languages/code-size/arijitcodes/OAuthTunnel?style=for-the-badge&logo=github&labelColor=232323&color=404040)](https://github.com/arijitcodes/OAuthTunnel) &nbsp;
+
+<!-- Others -->
+
+<!-- [![Semantic-Release Badge](https://img.shields.io/badge/semantic--release-e10079?style=for-the-badge&logo=semantic-release&labelColor=%23232323)](https://github.com/semantic-release/semantic-release) &nbsp;
+[![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen?style=for-the-badge&labelColor=%23232323&color=brightGreen)](https://commitizen.github.io/cz-cli/) &nbsp;
+[![Conventional Commits Badge](https://img.shields.io/badge/conventional_commits-404040?style=for-the-badge&logo=conventionalcommits&labelColor=%23232323&color=%23404040)](https://www.conventionalcommits.org) &nbsp; -->
+
+<hr>
+
+## Table of Contents
+
+- [Features](#features)
+- [Author](#author)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Functionalities and Technologies Used](#functionalities-and-technologies-used)
+- [From the Developer](#from-the-developer)
+- [Tips](#tips)
+- [Contributing](#contributing)
+- [License](#license)
+
 <hr>
 
 ## Features
 
-- **Dynamic Routing**: Forwards callbacks based on the `state` parameter.
-- **Development-Only**: Designed for local development environments.
-- **Docker Support**: Easy to deploy using Docker.
+- 🚀 **Dynamic Routing**: Forwards callbacks based on the `state` parameter, allowing flexible and dynamic routing during OAuth flows.
+- 🛠️ **Development-Only**: Specifically designed for local development environments to simplify OAuth integration without exposing your local server.
+- 🐳 **Docker Support**: Easily deployable using Docker, making setup and teardown a breeze.
 
 <hr>
 
@@ -39,9 +83,9 @@ For a Live Demo, check : [https://oauth.devworks.abc.dev](https://oauth.devworks
 
 ## Setup
 
-1. Clone the repo.
-2. Run `bun i` to install dependencies.
-3. Start the server with `docker-compose up`.
+1. 🛠️ Clone the repo.
+2. 📦 Run `bun i` to install dependencies.
+3. 🚀 Start the server with `docker compose up`.
 
 <hr>
 
@@ -83,11 +127,10 @@ For a Live Demo, check : [https://oauth.devworks.abc.dev](https://oauth.devworks
 
 `Functionalities` :
 
-- **OAuth Providers**: Supports multiple OAuth providers (Google, GitHub, etc.).
-- **Local Authentication**: Email/password authentication with JWT tokens.
-- **Dynamic Callback Handling**: Uses a subdomain to forward OAuth callbacks to the local backend during development.
-- **Environment-Specific Logic**: Different callback URLs for development and production environments.
-- **Dynamic IP Handling**: Updates local IP dynamically for forwarding callbacks.
+- 🌐 **OAuth Providers**: Supports multiple OAuth providers (Google, GitHub, etc.), making it easy to integrate with various authentication services.
+- 🔄 **Dynamic Callback Handling**: Uses a subdomain to forward OAuth callbacks to the local backend during development, ensuring seamless integration.
+- 🌍 **Environment-Specific Logic**: Configures different callback URLs for development and production environments, adapting to your deployment needs.
+- 📡 **Dynamic IP Handling**: Updates local IP dynamically for forwarding callbacks, accommodating changes in your development environment.
 
 <hr>
 
@@ -185,11 +228,23 @@ If you have any suggestions, please feel free to leave the suggestions. Construc
     <li>To setup this project, clone it and run `bun i` to install dependencies.</li>
     <li>Create a file named .env in the root. You can use the .env.sample file as a reference for the ENV Variables that are needed for the app.</li>
     <li>Set Up the required Env Variables to be used in the app.</li>
-    <li>Start the server with `docker-compose up`.</li>
+    <li>Start the server with `docker compose up`.</li>
 </ol>
 
 OR, just build the Docker Image using the Dockerfile and enjoy. <br />
 PS: If you go with docker, use port 5000 in the build process.
 
 </div>
+<hr>
+
+## Contributing
+
+We welcome contributions! Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to contribute to this project.
+
+<hr>
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
 <hr>
