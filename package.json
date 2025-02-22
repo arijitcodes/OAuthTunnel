@@ -1,0 +1,25 @@
+{
+  "name": "oauthtunnel",
+  "version": "1.0.0",
+  "description": "A lightweight proxy server for forwarding OAuth callbacks to your local backend during development.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "bun run src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oauth",
+    "proxy",
+    "development"
+  ],
+  "author": "Arijit Banerjee <arijit.codesl@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arijitcodes/OAuthTunnel.git"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}

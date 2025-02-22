@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  oauth-tunnel:
+    build: .
+    ports:
+      - "5943:5943"
+    environment:
+      - NODE_ENV=development
+    restart: unless-stopped
