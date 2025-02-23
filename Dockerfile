@@ -10,7 +10,7 @@ WORKDIR /app
 COPY --from=builder /app/node_modules ./node_modules
 COPY . .
 
-# Expose the port
+# Expose the port from Environment variable or default to 5943 - same as in the server.js
 ARG PORT=5943
 EXPOSE ${PORT}
 
