@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/arijitcodes/OAuthTunnel/compare/v1.1.0...v1.1.1) (2025-02-23)
+
+
+### Bug Fixes
+
+✅ **dockerfile:** fixes Dockerfile ([f7fa625](https://github.com/arijitcodes/OAuthTunnel/commit/f7fa6259cf1596caa60d8cc5715d50a2b03da5c4)), closes [#1](https://github.com/arijitcodes/OAuthTunnel/issues/1)  
+
+Fixes the Dockerfile setup <br/><br/>
+
 # [1.1.0](https://github.com/arijitcodes/OAuthTunnel/compare/v1.0.0...v1.1.0) (2025-02-23)
 
 
