@@ -49,7 +49,22 @@ app.get("/auth/:provider/callback", (req, res) => {
   }
 });
 
+// Catch-all route for unmatched routes
+app.use((req, res) => {
+  console.error(`❌ Unmatched route: ${req.method} ${req.url}`);
+  res.status(404).send("Not Found");
+});
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error("❌ Error:", err);
+  res.status(500).send("Internal Server Error");
+});
+
+// Port configuration
 const PORT = process.env.PORT || 5943;
+
+// Start the server
 app.listen(PORT, () => {
   console.log(`🚀 OAuthTunnel is running on port ${PORT}`);
 });
