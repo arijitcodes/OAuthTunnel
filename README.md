@@ -3,7 +3,7 @@
 OAuthTunnel is a lightweight proxy server for forwarding OAuth callbacks to your local backend during development.
 
 Author: [Arijit Banerjee](#author) <br/>
-License: [MIT](./LICENSE.md)
+License: [MIT](./LICENSE)
 
 <!-- shields.io Badges -->
 
@@ -28,9 +28,9 @@ License: [MIT](./LICENSE.md)
 
 <!-- Others -->
 
-<!-- [![Semantic-Release Badge](https://img.shields.io/badge/semantic--release-e10079?style=for-the-badge&logo=semantic-release&labelColor=%23232323)](https://github.com/semantic-release/semantic-release) &nbsp;
+[![Semantic-Release Badge](https://img.shields.io/badge/semantic--release-e10079?style=for-the-badge&logo=semantic-release&labelColor=%23232323)](https://github.com/semantic-release/semantic-release) &nbsp;
 [![Commitizen Friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen?style=for-the-badge&labelColor=%23232323&color=brightGreen)](https://commitizen.github.io/cz-cli/) &nbsp;
-[![Conventional Commits Badge](https://img.shields.io/badge/conventional_commits-404040?style=for-the-badge&logo=conventionalcommits&labelColor=%23232323&color=%23404040)](https://www.conventionalcommits.org) &nbsp; -->
+[![Conventional Commits Badge](https://img.shields.io/badge/conventional_commits-404040?style=for-the-badge&logo=conventionalcommits&labelColor=%23232323&color=%23404040)](https://www.conventionalcommits.org) &nbsp;
 
 <hr>
 
