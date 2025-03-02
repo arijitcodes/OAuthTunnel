@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/arijitcodes/OAuthTunnel/compare/v1.1.1...v1.1.2) (2025-03-02)
+
+
+### Bug Fixes
+
+✅ **semantic-release/release.config.js:** fix for Package.json version update issue ([527d32b](https://github.com/arijitcodes/OAuthTunnel/commit/527d32bdbebaff33a9f2829ff068542652ab8185))
+
 ## [1.1.1](https://github.com/arijitcodes/OAuthTunnel/compare/v1.1.0...v1.1.1) (2025-02-23)
 
 
